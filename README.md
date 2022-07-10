@@ -30,7 +30,7 @@ Se generan un json con la siguiente extructura:
         titulo = Field()
         urlImagen = Field()
         urlSite = Field()
-        urlSite = Field()
+        texto = Field()
 ```
 
 
