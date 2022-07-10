@@ -31,7 +31,7 @@ class PruebaBaseSpider(scrapy.Spider):
             site["titulo"]=response.xpath("//title/text()").extract()
             site["urlImagen"]=link_thumbnail.css('img::attr(src)').extract_first().strip()
             site["urlSite"]=link_thumbnail.xpath("//a[@class= 'link-analytics']/@href").extract_first()
-            site["urlSite"]=response.xpath("//div[contains(@class, 'link-details-review')]/text()").extract_first()
+            site["texto"]=response.xpath("//div[contains(@class, 'link-details-review')]/text()").extract_first()
             yield site
    
         xp = "//*[contains(@class, 'main-container')]//a/@href"

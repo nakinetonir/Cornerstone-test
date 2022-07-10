@@ -4,4 +4,4 @@ class Site(Item):
     titulo = Field()
     urlImagen = Field()
     urlSite = Field()
-    urlSite = Field()
+    texto = Field()
