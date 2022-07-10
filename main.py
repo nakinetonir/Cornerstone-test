@@ -22,8 +22,6 @@ if __name__ == '__main__':
             #recursive.scrape_recursive(start_url.get_url_page())
             dict_url["titulo"] = start_url.get_title()
             dict_url["url"] = start_url.get_url_page()
-            if start_url.get_url_page() is None:
-                print("")
             dict_url["urlImagen"] = start_url.get_url_imagen()
             dict_url["texto"] = start_url.get_texto()
             #list_dict_all_lins["links"] = recursive.get_list_dict_url()   

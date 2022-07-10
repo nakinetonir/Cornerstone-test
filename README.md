@@ -10,8 +10,20 @@
 
 ### Si queremos ejecutar el script hay que lanzar:
 
+
+
 ```Python
     scrapy_recursive.py
+```
+
+Se generan un json con la siguiente extructura:
+
+```Python
+    class Site(Item):
+        titulo = Field()
+        urlImagen = Field()
+        urlSite = Field()
+        urlSite = Field()
 ```
 
 * Y usando selenium, beautifulsoup.
@@ -21,3 +33,8 @@
 ```Python
     main.py
 ```
+
+Creamos un listado de json que contienen
+
+* Un campo titulo que contiene el cada categoria indetificada en la página
+* Un campo listPages que contiene info de cada website perteneciente a la categoria (titulo, url, urlImagen, texto)
