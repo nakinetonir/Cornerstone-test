@@ -2,11 +2,11 @@
 
 ## Test scraping
 
-## [Para la url](https://chromedriver.chromium.org/downloads)
+## [Para la url theporndude](https://theporndude.com/)
 
 ## He relaizado dos scraping.
 
-* Scraping, en este caso de manera recursiva.
+* Usando la libreria scrapy, en este caso de manera recursiva.
 
 ### Si queremos ejecutar el script hay que lanzar:
 
