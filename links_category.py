@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import requests
 import logging
 import sys
-sys.path.append('../')
+sys.path.append('../')p
 from models.category import Category
 from models.root_url import RootUrl 
 import comunFunction as cf

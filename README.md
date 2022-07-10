@@ -2,6 +2,12 @@
 
 ## Test scraping
 
+## ```python Python 3.7.0```
+
+## ```python pip install -r requirements.txt```
+
+
+
 ## [Para la url theporndude](https://theporndude.com/)
 
 ## He relaizado dos scraping.
