@@ -6,7 +6,8 @@
 
 ## He relaizado dos scraping.
 
-* Usando la libreria scrapy, en este caso de manera recursiva.
+=== "libreria scrapyt"
+
 
 ### Si queremos ejecutar el script hay que lanzar:
 
@@ -26,7 +27,9 @@ Se generan un json con la siguiente extructura:
         urlSite = Field()
 ```
 
-* Y usando selenium, beautifulsoup.
+
+=== "selenium, beautifulsoup"
+
 
 ### Para ejecutar el código se hace con el siguiente archivo:
 
