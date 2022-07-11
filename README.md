@@ -12,7 +12,7 @@
 
 ## He relaizado dos scraping.
 
-### **libreria scrapyt**
+### **libreria scrapy**
 
 
 ###### Si queremos ejecutar el script hay que lanzar:
